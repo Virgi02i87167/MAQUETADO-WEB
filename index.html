@@ -52,13 +52,32 @@
             <div id="articles">
                 <article class="article-item" id="article-template">
                     <div class="image-wrap">
-
+                        <img src="./assets/images/writing.jpg" alt="Imagen del articulo">
                     </div>
+                    <h2>Articulo de Prueba</h2>
+                    <span class="date">Hace 5 minutos</span>
+                    <a href="#">Leer más</a>
+                    <div class="clearfix"></div>
                 </article>
 
                 <!-- MOSTRAR ARTICULO DESDE JS -->
             </div>
         </section>
+
+        <script>
+            window.addEventListener("load", function () {
+                var template = document.getElementById("article-template");
+
+                var articles = document.getElementById("articles");
+                for (let i = 1; i <= 5; i++) {
+                    var clonado = template.cloneNode(true);
+                    clonado.removeAttribute("id");
+                    var h2 = clonado.getElementsByTagName("h2")[0];
+                    h2.innerHTML = h2.textContent + " " + i;
+                    articles.appendChild(clonado);
+                }
+            });
+        </script>
 
         <aside id="sidebar">
             <div id="nav-log" class="sidebar-item">
@@ -66,7 +85,7 @@
                 <a href="#" class="btn btn-success">Crear artículo</a>
             </div>
 
-            <div id="search" class="sidebar-item" >
+            <div id="search" class="sidebar-item">
                 <h3>Buscador</h3>
                 <p>Encuentra el artículo que buscas</p>
                 <form>
@@ -87,4 +106,5 @@
         </div>
     </footer>
 </body>
+
 </html>
