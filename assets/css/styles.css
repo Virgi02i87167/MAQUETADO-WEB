@@ -329,3 +329,25 @@ textarea {
     margin-bottom: 10px;
     float: left;
 }
+
+/* Responsive Web Design */
+/* Desde la anchura 963px hasta la anchura 1488px de pantalla */
+@media (max-width: 1488px) {
+    body {
+        background-color: red;
+    }
+}
+
+/* Desde la anchura 765px hasta la anchura 963px de pantalla */
+@media (max-width: 963px) {
+    body {
+        background-color: rgb(119, 255, 0);
+    }
+}
+
+/* Desde la anchura 0px hasta la anchura 963px de pantalla */
+@media (max-width: 765px) {
+    body {
+        background-color: fuchsia;
+    }
+}
