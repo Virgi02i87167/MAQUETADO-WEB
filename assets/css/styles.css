@@ -377,7 +377,7 @@ textarea {
     }
 }
 
-/* Desde la anchura 0px hasta la anchura 797px de pantalla */
+/* Desde la anchura 450px hasta la anchura 797px de pantalla */
 @media (max-width: 797px) {
     #menu,
     #menu ul {
@@ -428,7 +428,7 @@ textarea {
 }
 
 
-/* Desde la anchura 0px hasta la anchura 797px de pantalla */
+/* Desde la anchura 0px hasta la anchura 450px de pantalla */
 @media (max-width: 450px) {
     #header {
         min-height: 130px;
@@ -447,11 +447,19 @@ textarea {
     }
 
     #slider h1{
-        padding-top: 115px;
+        padding-top: 35px;
         font-size: 25px;
     }
 
-    .mid-form {
-        width: 70%;
+    #slider .btn-white {
+        margin-top: 20px;
+        width: 15%;
+        height: 5%;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    #slider.slider-medium {
+        height: 200px;
     }
 }
