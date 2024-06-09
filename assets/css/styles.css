@@ -420,4 +420,8 @@ textarea {
         padding-top: 115px;
         font-size: 25px;
     }
+
+    .mid-form {
+        width: 70%;
+    }
 }
