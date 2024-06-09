@@ -376,6 +376,7 @@ textarea {
         float: left;
     }
 }
+
 /* Desde la anchura 0px hasta la anchura 797px de pantalla */
 @media (max-width: 797px) {
     #menu,
@@ -414,6 +415,24 @@ textarea {
         width: 60%;
         margin: 0px auto;
         margin-bottom: 50px;
+    }
+
+    #slider h1{
+        padding-top: 115px;
+        font-size: 25px;
+    }
+
+    .mid-form {
+        width: 70%;
+    }
+}
+
+
+/* Desde la anchura 0px hasta la anchura 797px de pantalla */
+@media (max-width: 450px) {
+    #menu,
+    #menu ul {
+        line-height: 50px;
     }
 
     #slider h1{
