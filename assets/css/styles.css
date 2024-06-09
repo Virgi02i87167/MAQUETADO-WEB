@@ -430,6 +430,11 @@ textarea {
 
 /* Desde la anchura 0px hasta la anchura 797px de pantalla */
 @media (max-width: 450px) {
+    #header {
+        min-height: 130px;
+        overflow: hidden;
+    }
+
     #menu,
     #menu ul {
         line-height: 50px;
