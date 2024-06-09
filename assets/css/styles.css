@@ -331,23 +331,93 @@ textarea {
 }
 
 /* Responsive Web Design */
-/* Desde la anchura 963px hasta la anchura 1488px de pantalla */
+/* Desde la anchura 1059px hasta la anchura 1488px de pantalla */
 @media (max-width: 1488px) {
-    body {
-        background-color: red;
+    .center{
+        width: 85%;
     }
 }
 
-/* Desde la anchura 765px hasta la anchura 963px de pantalla */
-@media (max-width: 963px) {
-    body {
-        background-color: rgb(119, 255, 0);
+/* Desde la anchura 959px hasta la anchura 1098px de pantalla */
+@media (max-width: 1098px) {
+    .center{
+        width: 95%;
     }
 }
 
-/* Desde la anchura 0px hasta la anchura 963px de pantalla */
-@media (max-width: 765px) {
-    body {
-        background-color: fuchsia;
+/* Desde la anchura 973px hasta la anchura 959px de pantalla */
+@media (max-width: 973px) {
+    #menu ul {
+        width: auto;
+    }
+
+    #logo {
+        font-size: 25px;
+    }
+
+    #logo img {
+        height: 60px;
+    }
+}
+
+/* Desde la anchura 797px hasta la anchura 813px de pantalla */
+@media (max-width: 813px) {
+    #menu ul {
+        width: auto;
+    }
+
+    #logo {
+        font-size: 25px;
+    }
+
+    #logo img {
+        height: 55px;
+        display: block;
+        float: left;
+    }
+}
+/* Desde la anchura 0px hasta la anchura 797px de pantalla */
+@media (max-width: 797px) {
+    #menu,
+    #menu ul {
+        width: auto;
+        clear: both;
+        width: 100%;
+        float: none;
+        margin: 0px;
+        padding: 0px;
+        line-height: 50px;
+    }
+
+    #logo {
+        float: none;
+        font-size: 25px;
+        width: 270px;
+        margin: 0px auto;
+        margin-top: 35px;
+    }
+
+    #logo img {
+        height: 55px;
+        display: block;
+        float: left;
+    }
+
+    /* Sidebar */
+    #content {
+        float: none;
+        width: 100%;
+    }
+
+    #sidebar {
+        float: none;
+        width: 60%;
+        margin: 0px auto;
+        margin-bottom: 50px;
+    }
+
+    #slider h1{
+        padding-top: 115px;
+        font-size: 25px;
     }
 }
